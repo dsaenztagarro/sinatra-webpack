@@ -1,0 +1,17 @@
+{
+  "name": "sinatra-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "builddev": "webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC"
+}
